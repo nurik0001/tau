@@ -196,81 +196,78 @@ footer {
 
 @media (max-width: 600px) {
     html, body {
-        overflow-y: auto;
-        overflow-x: hidden;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
         background: #0a1833;
     }
     .invite-card {
-        padding: 2.5rem 1rem 2.5rem 1rem;
+        padding: 1.5rem 0.7rem;
         max-width: 100vw;
-        margin: 0;
-        border-radius: 0;
+        margin: 1.5rem 0 1.5rem 0;
+        border-radius: 18px;
         border: none;
-        box-shadow: none;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.10);
         background: #fff;
     }
     .invite-img {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
         margin-top: 0;
         border: 3px solid #2a4d8f;
         box-shadow: 0 4px 20px rgba(42,77,143,0.2);
     }
     .invite-title {
-        font-size: 2rem;
-        margin: 1.5rem 0 0.8rem;
+        font-size: 1.5rem;
+        margin: 1.1rem 0 0.6rem;
         color: #1a2950;
     }
     .invite-subtitle {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem;
         color: #2a4d8f;
     }
     .guests-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem 1rem;
-        margin: 2rem 0;
-        padding: 0 0.5rem;
+        gap: 1.1rem 0.5rem;
+        margin: 1.1rem 0 0.7rem 0;
+        padding: 0 0.2rem;
     }
     .guest-photo {
-        width: 90px;
-        height: 90px;
-        border: 3px solid #2a4d8f;
-        box-shadow: 0 4px 15px rgba(42,77,143,0.15);
-        transition: transform 0.3s ease;
-    }
-    .guest-photo:hover {
-        transform: scale(1.05);
+        width: 70px;
+        height: 70px;
+        border: 2.5px solid #2a4d8f;
+        box-shadow: 0 2px 8px rgba(42,77,143,0.12);
     }
     .guest-name {
-        font-size: 1rem;
-        margin-top: 0.5rem;
+        font-size: 0.97rem;
+        margin-top: 0.35rem;
         color: #1a2950;
         font-weight: 500;
     }
     .invite-text {
-        font-size: 1.1rem;
-        padding: 1.5rem 1rem;
-        margin: 2rem 0;
+        font-size: 0.98rem;
+        padding: 0.7rem 0.2rem;
+        margin: 1.1rem 0 1.1rem 0;
         background: rgba(42,77,143,0.05);
-        border-radius: 15px;
+        border-radius: 12px;
         color: #1a2950;
         line-height: 1.6;
     }
     .invite-guests {
-        padding: 1rem;
-        margin: 1.5rem 0;
+        padding: 0.7rem 0.2rem;
+        margin: 1.1rem 0 0.7rem 0;
         background: rgba(42,77,143,0.08);
-        border-radius: 15px;
+        border-radius: 12px;
     }
     .invite-names {
-        font-size: 1.1rem;
-        margin: 2rem 0;
+        font-size: 1.05rem;
+        margin: 1.1rem 0;
         color: #1a2950;
     }
     .invite-footer {
-        font-size: 1.2rem;
-        margin-top: 2rem;
+        font-size: 1.1rem;
+        margin-top: 1.1rem;
+        margin-bottom: 0.5rem;
         color: #2a4d8f;
     }
 }
